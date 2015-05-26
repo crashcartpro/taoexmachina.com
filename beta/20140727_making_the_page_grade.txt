@@ -1,0 +1,15 @@
+<h2 class="date">27/07/2014</h2>
+<h2>Making the page grade</h2>
+<hr>
+<a href=""><img class="content-image"
+src="" width="320px"/></a>
+<!-- Intro -->
+<p>While in training for work at a web host, I was introduced the the site <a href="http://gtmetrix.com/">GTmetrix</a>. This site assesses how a page is served and how it loads and gives sugestions on what may be making it slow and what can be done to speed it up. They use two other services together: Google's "Page Speed" and Yahoo's "Yslow" each of which gives you a grade. I imidiately tried this on my own site.</p>
+<p>Page Speed: F Yslow: B</p>
+<!-- Enable Compression -->
+<p>So right of the bat, Google is giving me an F, and there is a small list of greviences. Even with Yslow's B score, there is a similar list of things to improve. I start looking at improvements that are on both lists. Step 1, I enable apache to send data in a compressed form. <code><IfModule mod_deflate.c>AddOutputFilterByType DEFLATE text/html text/css text/plain</IfModule></code> Here I set all the text that makes up my page to send gziped, therefore taking less time to transfer the files to the client.</p>
+
+<!-- Enable browser caching -->
+<!-- Enable Keep-Alive -->
+<!-- Serve scaled images -->
+<!-- conclusion -->

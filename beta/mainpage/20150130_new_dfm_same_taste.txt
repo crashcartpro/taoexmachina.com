@@ -1,0 +1,7 @@
+<h2 class="date">1/30/2015</h2>
+<h2>New DFM! Same great taste!</h2>
+<hr>
+<a href="images/NewRev_SameTaste.JPG"><img class="article-image" src="images/NewRev_SameTaste_320.JPG" width="320px" height="240px"/></a>
+<p>The "Sound Producing Amplifier Module" or "S.P.A.M." is hitting that point in it's life cycle where I can't really dedicate enough time to fufil orders, and still solder them all by hand. A good problem, to be sure. So as we hop from revision 5 straight to revision 7, I'm looking towards Designing For Manufacture. In the case of this amp, that means moving to mostly surface mount components.</p>
+<p>I was mildly nervous that different tolerances and characteristics of surface mount components would affect the performance of the amplifier. Looking back, this is a silly thought. I made careful selection of components with all the same values. So despite the packaging, nothing really changed. Still, I felt it worth comparing the new prototype with the old rev.</p>
+<p>I put put both amps on the bench, and hooked up an HP-35660a dynamic signal analyzer. There is about a 5db change in response from 64Hz to 1000Hz. Above 1000Hz the test goes a bit crazy, but all still within 10db. As you can see from the photos, the two amplifiers perform almost identically. I'm not really sure why I expected to see any difference, but I feel good to have gone through the effort.</p>

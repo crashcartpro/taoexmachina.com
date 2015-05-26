@@ -1,0 +1,14 @@
+<div id="footer">
+<div class="wrapper">
+<pre class="footer-block">
+<?php
+$footerOutput = system('cat footer.txt | cowsay -n');
+$footerLength=count($footerOutput);
+for($x=0;$x<$footerLength;$x++){
+  echo $footerOutput[$x];
+  echo "<br>";
+}
+?>
+</pre>
+</div>
+</div>

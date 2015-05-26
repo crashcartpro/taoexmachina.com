@@ -1,0 +1,36 @@
+body{font-family:arial,sans-serif;background-color:#FFFFFF;margin:0;}
+.wrapper {overflow:auto;width:100%;max-width:980px;margin:0 auto;padding:0;}
+#masthead {background-color:#990000;background-image:url(images/spam_masthead.jpg);color:#FFFFDD;}
+#masthead img {margin:10px;vertical-align:middle;display:inline-block;}
+#masthead span {vertical-align:middle;display:inline-block;text-align:center;text-shadow:0 0 10px #101010;margin-left:14%;}
+#masthead h1{margin:7px;font-size:2.2em;} 
+#masthead h2 {margin:7px;}
+#masthead h3 {margin:7px;color:#CCCCAA;}
+#nav {font-weight: bold;background-color:#101010;margin:0;padding:0;list-style-type:none;vertical-align:top;}
+#nav ul {margin:0;padding:0;width:100%;position:relative;display:inline-block;}
+#nav > div > ul > li {display:inline-block;}
+#nav ul li a {color:#990000;padding:10px 25px;text-decoration:none;display:inline-block;}
+#nav ul li:hover {background:#FFFFDD;border-radius:10px 10px 10px 10px;}
+#quote {font-family:serif;font-size:1em;background-color:#FFFFDD;border:2px solid #990000;border-radius:10px;box-shadow: 5px 5px 10px #888888;max-width:480px;padding:10px;margin:5px auto 5px auto;text-align:center;}
+.content {background-color:#FFFFDD;border:2px solid #101010;border-radius:10px;box-shadow: 5px 5px 10px #888888;max-width:960px;padding:10px;margin-left:auto;margin-right:auto;margin-top:10px;margin-bottom:5px;}
+.content h2 {vertical-align:middle;font-size:1.25em;margin:0;}
+.content h2.date {vertical-align:middle;font-size:1em;margin:0;float:right;}
+.content h2 a {text-decoration:none;color:inherit;}
+.content h3 {vertical-align:middle;font-size:1em;margin:0;}
+.content h4 {vertical-align:middle;font-size:0.75em;margin:0;}
+.content img {float:right;margin-left:5px;}
+.video-column {display:inline-block;background-color:#FFFFDD;border:2px solid #101010;border-radius:10px;box-shadow: 5px 5px 10px #888888;width:290px;vertical-align:top;padding:10px;margin-left:5px;margin-right:4px;margin-top:10px;margin-bottom:5px;}
+.video-column h2 {vertical-align:middle;font-size:1.25em;margin:0;}
+#footer {background-color:#101010;color:#FFFFDD;min-height:100px;padding:15px;margin-top:15px;}
+.footer-block {	display:inline-block;vertical-align:top;margin-right:15px;margin-top:0;}
+
+@media screen and (max-width: 600px) {
+
+#masthead img {display:block;margin-left:auto;margin-right:auto;}
+#masthead span {display:block;margin:0 auto;}
+#nav, #sub-nav {margin:0;}
+	#nav {width:100%;margin:0;}
+.content {}
+.content img {display:block;float:none;margin-left:auto;margin-right:auto;}
+}
+

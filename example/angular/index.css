@@ -1,0 +1,53 @@
+h2 {
+  display: inline;
+  margin-left: 15px;
+}
+
+p {
+  width: 480px;
+  border: 5px solid gray;
+} 
+
+.toggle {
+  display: none;
+}
+
+.toggle + label {
+  color: #999999;
+  cursor: pointer;
+  display: inline;
+  font-weight: bold;
+  line-height: 21px;
+  margin: 5px 5px 5px 15px;
+}
+
+.toggle + label + br + div {
+  display: block;
+  overflow: hidden;
+  height: 0px;
+  width: 480px;
+  margin: 5px;
+  border: 5px solid gray;
+  -webkit-transition: height 1s ease;  
+  -moz-transition: height 1s ease;  
+  -o-transition: height 1s ease;  
+  -ms-transition: height 1s ease;  
+  transition: height 1s ease; 
+}
+
+.toggle:checked + label + br + div {
+  height: 300px;
+  overflow: scroll;
+}
+
+.toggle + label:after {
+  content: "+";
+  display: inline;
+  font-weight: bold;
+}
+
+.toggle:checked + label:after {
+  content: "\2212";
+}
+
+

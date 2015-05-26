@@ -1,0 +1,18 @@
+<h2 class="date">2/14/2014</h2>
+<h2>You never forget your first</h2>
+<hr>
+<a href="images/rcm-028.jpg"><img class="article-image"
+src="images/rcm-028_320.png" width="320px"/></a>
+
+<p>Or do you?</p>
+
+<p>I have very strong memories of my first personal computer. I was about 6 years old and it was an Ericsson PC. This was an IBM-XT clone with an Intel 8088 processor and an amber screen. First, it was in the family office, and later in my room when my dad got something newer. First learning how to use a computer was such a formative experience in my life that I knew I would never forget it.</p>  
+
+<p>However, as I get older and I find myself talking with younger computer geeks, I feel like I have noticed a trend; the question, "What was your first computer?" often eludes younger people. Young people with a passion for computers. Young people working in Information Technology jobs. More often than not, they have a vague memory of their first computer. "Some beige-box" or "It was a Dell something or other." are answers I've heard, while performing my very amateur study. So what's going on here? Is their ability to remember getting worse? Is their first experience with a computer truly less magical? Is it just kids these days!?</p>
+
+<p>Well, I discussed this phenomenon with colleagues, and have found a few good ways to explain the trend I'm seeing. To start, I do think people who got their first personal computer in the early to mid 80's have a lot less to remember. There were fewer options and fewer models. So you could tell me that your first computer was a TI-99/4A and I'll know exactly the computer your talking about. But just telling me that you owned a Dell in the late 90's, doesn't tell me much about what hardware was in it, or what software it was running. And it would be a bit unreasonable of me to expect you to remember some esoteric model number, etc.</p>
+
+<p>The other point I'm willing to concede is that the Personal Computer had become increasingly more common in the home all through the 90's. People born in 1990 or later have a much better chance of growing up with a computer already in the home. They were barely cognizant when they truly <em>first</em> saw a computer. So even if they fell in love with computing later, they are unable to recall all the details of the first. You could ask folks in my own generation to try and recall their first color TV, and you'd get a similar response; even though the color TV was just as transformative an addition to the home for the generation before.</p>
+
+<p>So while I might feel shocked when younger computer geeks don't have magical memories of their first computer, I can understand the reasons. Memory from early childhood is frequently fragile, the Personal Computer has become nearly ubiquitous, and available models and options continue to increase every year. Not remembering their first computer doesn't negate their love of computers, it just shows their age, in a way. It's worth pointing out that there will even still be outliers to this, who DO have some great stories of their first computer. </p>
+

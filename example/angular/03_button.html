@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="frameworks/bootstrap.min.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+</head> 
+<body>
+
+<div class="container" ng-app="" ng-controller="loginController">
+   <button ng-click="toggle()">Hide login</button>
+   <p ng-hide="myVar">
+   Username: <input type=text ng-model="login.username"><br>
+   Password: <input type=password ng-model="login.password"><br><br>
+   Login String: {{login.username + " " + login.password}}
+   </p>
+
+</div>
+
+<script type="text/javascript">
+   function loginController($scope) {
+      $scope.login = {username: "username", password: "password"}
+      $scope.myVar = false;
+      $scope.toggle = function() {
+         $scope.myVar = !$scope.myVar;
+      }
+   }
+</script> 
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+
+</body>
+</html>
+

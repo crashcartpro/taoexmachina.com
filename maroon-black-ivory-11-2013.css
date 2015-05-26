@@ -1,0 +1,258 @@
+body{
+	font-family:arial,sans-serif;
+	background-color:#FFFFFF;
+	margin:0;
+}
+.wrapper {
+	/*overflow:auto;*/
+	width:100%;
+	max-width:1024px;
+	margin:0 auto;
+	padding:0;
+}
+.mobile-wrapper {
+	margin:0 auto;
+	padding:0;
+}
+#masthead {
+	background-color:#990000;
+	background-image:url(images/spam_masthead.jpg);
+	color:#FFFFDD;
+}
+	#masthead img {
+		margin:10px;
+		vertical-align:middle;
+		display:inline-block;
+	}
+	#masthead span {
+		/*font-size:2.2em;*/
+		/*font-weight:bold;*/
+		vertical-align:middle;
+		display:inline-block;
+		text-align:center;
+		text-shadow:0 0 10px #101010;
+		margin-left:14%;
+	}
+	#masthead h1{
+		margin:7px;
+		font-size:2.2em;
+	} 
+	#masthead h2 {
+		margin:7px;
+	}
+	#masthead h3 {
+		margin:7px;
+		color:#CCCCAA;
+	}
+#nav {
+	font-weight: bold;
+	background-color:#101010;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	vertical-align:top;
+}
+	#nav ul {
+		margin:0;
+		padding:0;
+		width:100%;
+		position:relative;
+		display:inline-block;
+	}
+	#nav > div > ul > li {
+		display:inline-block;
+	}
+	#nav ul ul {
+		background:#FFFFDD;
+		padding:0;
+		position:absolute;
+		top:100%;
+		left:-100%;
+		width:auto;
+		min-width:500px;
+		z-index:2;
+		transition: all 0.5s;
+	}
+	#nav ul ul.default {
+		top: 100%;
+		left:0%;
+		z-index:1;
+	}
+	#nav ul li a {
+		color:#990000;
+		padding:10px 25px;
+		text-decoration:none;
+		display:inline-block;
+	}
+	#nav ul ul li {
+		display:inline-block;
+		position:relative;
+		background:#FFFFDD;
+	}
+	#nav ul ul li a {
+		color:#101010;
+		padding: 10px 20px;
+	}
+	#nav ul li:hover > ul {
+		left:0%;
+		transition: all 0.5s;
+	}
+	#nav ul li:hover {
+		background:#FFFFDD;
+		border-radius:10px 10px 0px 0px;
+	}
+	#nav ul ul li a:hover {
+		background:#990000;
+	}
+	#sub-nav {
+		display:block;
+		background-color:#FFFFDD;
+		margin-top:0;
+		margin-left:0;
+		margin-right:0;
+		margin-bottom:10px;
+		height:38px;
+		box-shadow: 0px 5px 10px #888888;
+	}
+#quote {
+	font-family:serif;
+	font-size:1.25em;
+	background-color:#FFFFDD;
+        border:2px solid #990000;
+        border-radius:10px;
+        box-shadow: 5px 5px 10px #888888;
+        max-width:480px;
+        padding:10px;
+        margin:5px auto 5px auto;
+	text-align:center;
+}
+.content {
+	background-color:#FFFFDD;
+	border:2px solid #101010;
+	border-radius:10px;
+	box-shadow: 5px 5px 10px #888888;
+	max-width:960px;
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.content h2 {
+	vertical-align:middle;
+	font-size:1.25em;
+	margin:0;
+}
+.content h3 {
+	vertical-align:middle;
+	font-size:100%;
+	margin:0;
+	float:right;
+}
+.content h4 {
+	vertical-align:middle;
+	font-size:1em;
+	margin:0;
+}
+.content img {
+	float:right;
+	margin-left:5px;
+}
+.video-column {
+	display:inline-block;
+	background-color:#FFFFDD;
+        border:2px solid #101010;
+        border-radius:10px;
+        box-shadow: 5px 5px 10px #888888;
+        width:300px;
+	vertical-align:top;
+        padding:10px;
+        margin-left:5px;
+        margin-right:4px;
+        margin-top:10px;
+        margin-bottom:5px;
+}
+.video-column h2 {
+	vertical-align:middle;
+	font-size:1.25em;
+	margin:0;
+}
+#footer {
+	background-color:#101010;
+	color:#FFFFDD;
+	min-height:100px;
+	padding:15px;
+	margin-top:15px;
+}
+.footer-block {
+	display:inline-block;
+	vertical-align:top;
+	margin-right:15px;
+	margin-top:0;
+}
+
+@media screen and (max-width: 600px) {
+
+.mobile-wrapper {
+	overflow:hidden;
+	width:100%;
+}
+#masthead img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#masthead span {
+	display:block;
+	margin:0 auto;
+}
+#nav, #sub-nav {
+	display:inline-block;
+	width:49%;
+	height:200px;
+	margin:0;
+	box-shadow: 0px 5px 10px #888888;
+}
+	#nav > div > ul > li > a {
+		text-align:center;
+	}
+	#nav ul ul li {
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#nav > div > ul > li {
+		display: block;
+	}
+	#nav ul ul {
+		top: 0%;
+		left: 200%;
+		width: 50%;
+		height:200px;
+		z-index:4;
+		transition: all 0.5s;
+	}
+	#nav ul ul.default {
+		top: 0%;
+		left: 100%;
+		width: auto;
+		z-index:1;
+	}
+	#nav ul li:hover {
+		border-radius:10px 0px 0px 10px;
+	}
+	#nav ul li:hover > ul {
+		left:100%;
+		transition: all 0.5s;
+	}
+.content {
+}
+.content img {
+	display:block;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+}
+

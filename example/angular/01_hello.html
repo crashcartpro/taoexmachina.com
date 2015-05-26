@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+   <link rel="stylesheet" href="frameworks/bootstrap.min.css">
+   <style>
+      h5{width:400px;}
+      pre{width:200px;}
+   </style>
+</head>
+<body>
+<div class="container">
+   <h5 class="bg-info">Type in the box:</h5>
+   <input type="text" ng-model="aardvark"/>
+   <h5 class="bg-info">It shows up here:</h5>
+   <h1>{{aardvark}}</h1>
+   <h5 class="bg-info">And affects this element:</h5>
+   <div class="row">
+      <div class="{{aardvark}}" style="font-size:1.5em;">
+         Wrap me in a Bootstrap element
+      </div>
+   </div><br>
+   <pre class="bg-success">
+Try these:
+    pull-right
+    hidden
+    text-primary
+    bg-danger
+   </pre>
+</div>
+</body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+</html>
