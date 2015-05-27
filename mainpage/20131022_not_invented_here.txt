@@ -1,5 +1,6 @@
 <h2 class="date">10/22/2013</h2>
-<h2>Not invented here</h2>
+<h2><a
+href="http://taoexmachina.com/index.php?a=20131022_not_invented_here.txt">Not invented here</a></h2>
 <hr>
 <img class="content-image" src="images/NotMadeHere.png" />
 <p>Two big questions to ask as you begin any journey are: 

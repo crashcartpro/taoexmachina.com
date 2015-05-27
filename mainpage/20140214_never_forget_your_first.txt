@@ -1,5 +1,6 @@
 <h2 class="date">2/14/2014</h2>
-<h2>You never forget your first</h2>
+<h2><a
+href="http://taoexmachina.com/index.php?a=20140214_never_forget_your_first.txt">You never forget your first</a></h2>
 <hr>
 <a href="images/rcm-028.jpg"><img class="content-image"
 src="images/rcm-028_320.png" width="320px"/></a>
