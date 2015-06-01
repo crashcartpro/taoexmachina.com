@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>The Way from a machine</title>
- <base href="http://www.taoexmachina.com/beta">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" type="text/css" href="beta/maroon-black-ivory-02-2015.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<title>The Way from a machine</title>
+<base href="http://www.taoexmachina.com/beta">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="beta/maroon-black-ivory-02-2015.css">
 </head>
 <body>
 <?php
