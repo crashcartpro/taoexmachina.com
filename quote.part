@@ -1,6 +1,6 @@
 <div id="quote">
 <?php
-exec('fortune /usr/share/games/fortune/taoexmachina',$quoteOutput);
+exec('fortune taoexmachina',$quoteOutput);
 $quoteLength=count($quoteOutput);
 for($x=0;$x<$quoteLength;$x++){
  echo $quoteOutput[$x];

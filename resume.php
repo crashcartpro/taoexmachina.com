@@ -4,24 +4,27 @@
 <title>The Way from a machine</title>
 <base href="http://www.taoexmachina.com/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="maroon-black-ivory-07-2014.css">
+<link rel="stylesheet" type="text/css" href="maroon-black-ivory-02-2015.css">
 </head>
 <body>
 <?php
 
 /*===== PULL HEADERS =====*/
 include 'header.part';
-include 'navigation.part';
+include 'nav-bar.part';
+/*===== PAGE CONTENT =====*/
+echo "<div id='content'>";
+echo "<div class='wrapper'>";
 include 'quote.part';
 
 ?>
-<div class="content">
+<div class="article">
 <h2><a id="about">About Me</a></h2>
 <hr>
 <p></p>
 </div>
 
-<div class="content">
+<div class="article">
 <h2><a id="education">Education and Certification</a></h2>
 <hr>
 <p><h3>Computer Service and Repair</h3>
@@ -34,7 +37,7 @@ include 'quote.part';
 2009-2013 - Attended Calhoun Community College, Huntsville, AL</p>
 </div>
 
-<div class="content">
+<div class="article">
 <h2><a id="work">Work History</a></h2>
 <hr>
 <p><h3>Technology Coordinator's Assistant</h3>
@@ -67,7 +70,8 @@ Digium Inc. Huntsville, AL
 Providing technical assistance to Digium customers over phone and email. Maintaining Asterisk and Switchvox communication systems. Troubleshooting VoIP, PRI, and analog telephony connections.</p>
 
 </div>
-
+</div>
+</div>
 <?php
 
 /*===== PULL FOOTER =====*/

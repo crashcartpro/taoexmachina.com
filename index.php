@@ -4,20 +4,19 @@
 <title>The Way from a machine</title>
 <base href="http://www.taoexmachina.com/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="maroon-black-ivory-07-2014.css">
+<link rel="stylesheet" type="text/css" href="/maroon-black-ivory-02-2015.css">
 </head>
 <body>
 <?php
 
 /*===== PULL HEADERS =====*/
 include 'header.part';
-include 'navigation.part';
-include 'quote.part';
-
+include 'nav-bar.part';
 /*===== PAGE CONTENT =====*/
+echo "<div id='content'>";
+echo "<div class='wrapper'>";
+include 'quote.part';
 $path_to_content = "/var/www/html/mainpage/";
-
 // Test for any arguments passed in url
 if (!empty($_GET)) {
  // Test for file to exist AND collapse any redirects 
@@ -25,7 +24,7 @@ if (!empty($_GET)) {
   //Test that the colapsed path still points where we expect 
   if (strpos($real_article_path, $path_to_content) === 0){
    //All tests satisfied, include the specified article as the only content.
-   echo "<div class='content'>";
+   echo "<div class='article'>";
    include $real_article_path;
    echo "</div>";
   } else {
@@ -45,22 +44,13 @@ fail:
  array_pop($files_in_directory);
  $articles_to_display = array_slice($files_in_directory, 0, 5);  //limit to the first 5
  foreach($files_in_directory as $content_file){
-  echo "<div class='content'>";
+  echo "<div class='article'>";
   include $path_to_content.$content_file;
   echo "</div>";
  }
 }
-
-/*===== OLD PAGE CONTENT =====
-$content_directory = "/var/www/html/mainpage/";
-$files_in_directory = scandir($content_directory, 1);
-array_pop($files_in_directory);
-array_pop($files_in_directory);
-foreach($files_in_directory as $content_file){
-  echo "<div class='content'>";
-  include $content_directory.$content_file;
-  echo "</div>";
-}*/
+echo "</div>";
+echo "</div>";
 
 /*===== PULL FOOTER =====*/
 include 'footer.part';
