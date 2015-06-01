@@ -16,7 +16,7 @@ body{
 	background-image:url(images/spam_masthead.jpg);
 	color:#FFFFDD;
 	height:auto;
-	z-index:15;
+	z-index:25;
 }
 	#masthead img {
 		margin:10px;
@@ -50,6 +50,7 @@ body{
 	list-style-type:none;
 	vertical-align:top;
 	z-index:20;
+	box-shadow: 0 5px 10px #888888;
 }
 	.nav-bar ul {
 		margin:0;
