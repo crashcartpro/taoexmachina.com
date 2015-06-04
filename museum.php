@@ -21,24 +21,25 @@ include 'quote.part';
 <div class="article">
 <h2>Hardware</h2>
 <hr>
+Pictures of old computers and some projects
 </div>
 
 <div class="article">
 <h2>Software</h2>
 <hr>
-
+<a href="http://taoexmachina.com/example/angular/index.php">AngularJS examples</a>
 </div>
 
 <div class="article">
 <h2>Images</h2>
 <hr>
-
+amature photography and drawings
 </div>
 
 <div class="article">
 <h2>Music</h2>
 <hr>
-
+wishful thinking
 </div>
 </div>
 </div>
