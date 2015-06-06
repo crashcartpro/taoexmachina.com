@@ -21,11 +21,11 @@ include 'quote.part';
 <div class="article">
 <h2>Tim around the web</h2>
 <hr>
-https://www.facebook.com/insideoutboy<br/>
-https://twitter.com/crashcartpro<br/>
-https://256.makerslocal.org/wiki/User:CrashCart<br/>
-https://github.com/crashcartpro<br/>
-http://www.codecademy.com/crashcartpro<br/>
+<a href="https://www.facebook.com/insideoutboy">Facebook</a><br/>
+<a href="https://twitter.com/crashcartpro">Twitter</a><br/>
+<a href="https://256.makerslocal.org/wiki/User:CrashCart">Makers Local 256</a><br/>
+<a href="https://github.com/crashcartpro">gith-ub</a><br/>
+<a href="http://www.codecademy.com/crashcartpro">Code Academy</a><br/>
 </div>
 </div>
 </div>
