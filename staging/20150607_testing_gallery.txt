@@ -1,0 +1,10 @@
+<h2 class="date">06/07/2015</h2>
+<h2>Testing an image galery</h2>
+<hr>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisi mauris, aliquam eget lacus vitae, ullamcorper tempus mauris. Nunc ut odio sit amet lorem auctor iaculis. Quisque eu ultrices metus. Nunc pulvinar tincidunt dui, vel laoreet massa congue quis. Fusce eget elit eget urna vehicula dignissim eget quis tellus. Duis tristique aliquet urna et efficitur. Praesent vitae finibus purus. Sed blandit rutrum volutpat. Nunc pretium non neque ut semper. Sed id justo quis nulla pellentesque semper. Integer et ex purus. Etiam a pretium nisl, nec malesuada dui. Proin tincidunt at lectus ac pharetra.</p>
+
+<p>Nulla mollis est vel tempor vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla pellentesque maximus justo, sed lobortis leo maximus sit amet. Fusce quam enim, sollicitudin ac eros sit amet, porttitor mollis risus. Nullam et nulla sodales, fringilla mauris ut, porttitor sem. Nulla eget ornare elit. Pellentesque mattis tellus at nibh facilisis sodales. Aenean id urna quam. Donec ac commodo justo, cursus lacinia lacus. Nullam accumsan mi eget justo interdum tempor. Pellentesque at suscipit sem. Nunc vel neque erat. Donec id velit egestas, dictum arcu ut, vulputate justo. Integer eu vestibulum ligula, a semper urna.</p>
+
+<p>Aliquam egestas urna sit amet tortor volutpat, commodo condimentum tortor euismod. Praesent lacinia egestas nisl, mollis sollicitudin mauris viverra in. Proin ut sapien congue, tempor sapien sed, fermentum orci. Nam tortor magna, convallis sed sem sit amet, posuere suscipit purus. Maecenas consectetur augue eleifend nisl fringilla, sed tempor lacus efficitur. In convallis pulvinar neque vitae malesuada. Pellentesque ultricies tristique sapien nec mattis. In vel consectetur nulla. Aenean iaculis pulvinar elementum.</p>i
+
+<img src="

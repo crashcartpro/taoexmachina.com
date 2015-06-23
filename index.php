@@ -17,12 +17,25 @@ echo "<div id='content'>";
 echo "<div class='wrapper'>";
 include 'quote.part';
 $path_to_content = "/var/www/html/mainpage/";
+$alt_path_to_content = "/var/www/html/staging/";
 // Test for any arguments passed in url
 if (!empty($_GET)) {
- // Test for file to exist AND collapse any redirects 
+ // Test for file to exist in primary path AND collapse any redirects 
  if ($real_article_path = realpath($path_to_content.$_GET['a'])) {
   //Test that the colapsed path still points where we expect 
   if (strpos($real_article_path, $path_to_content) === 0){
+   //All tests satisfied, include the specified article as the only content.
+   echo "<div class='article'>";
+   include $real_article_path;
+   echo "</div>";
+  } else {
+   echo "<p>Path error</p>";
+   goto fail;
+  }
+ // Test for file to exist in alternate path AND collapse any redirects
+ } else if ($real_article_path = realpath($alt_path_to_content.$_GET['a'])) {
+  //Test that the colapsed path still points where we expect
+  if (strpos($real_article_path, $alt_path_to_content) === 0){
    //All tests satisfied, include the specified article as the only content.
    echo "<div class='article'>";
    include $real_article_path;
