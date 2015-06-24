@@ -2,7 +2,7 @@
 <h2><a
 href="http://taoexmachina.com/index.php?a=20131020_reactive_design.txt">Adventures in CSS and reactive design</a></h2>
 <hr>
-<a href="images/IMG_6427_e.jpg"><img class="content-image" src="images/IMG_6427_e_320.jpg" width="320px" height="240px"/></a>
+<a href="images/IMG_6427_e.jpg"><img class="right-image" src="images/IMG_6427_e_320.jpg" width="320px" height="240px"/></a>
 <p>CSS is supposed to make coding web pages easier and more flexible,<br/>but sometimes it behaves in unexpected ways.</p>
 <p> When starting this page, I wanted to practice more contemporary web design. More HTML5 and CSS3 with less tables and dancing gifs. Looking at a number of examples, I decided I wanted a site that follows 960-width design on a large screen, and still adapts to mobile devices, and everything in between.</p>
 <p>Many design sites stated that all I would need is a <code>float:left;</code> and a handful of <code>div</code> containers. But things seemd to slide around the page without rhyme or reason. A floated image would leave the bounds of it's own div. Text slides up under it. Then the browser just sits there and laughs at you when you want to center something horizontally AND vertically.</p>

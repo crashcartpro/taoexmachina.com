@@ -5,6 +5,12 @@
 
 <p>Nulla mollis est vel tempor vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla pellentesque maximus justo, sed lobortis leo maximus sit amet. Fusce quam enim, sollicitudin ac eros sit amet, porttitor mollis risus. Nullam et nulla sodales, fringilla mauris ut, porttitor sem. Nulla eget ornare elit. Pellentesque mattis tellus at nibh facilisis sodales. Aenean id urna quam. Donec ac commodo justo, cursus lacinia lacus. Nullam accumsan mi eget justo interdum tempor. Pellentesque at suscipit sem. Nunc vel neque erat. Donec id velit egestas, dictum arcu ut, vulputate justo. Integer eu vestibulum ligula, a semper urna.</p>
 
-<p>Aliquam egestas urna sit amet tortor volutpat, commodo condimentum tortor euismod. Praesent lacinia egestas nisl, mollis sollicitudin mauris viverra in. Proin ut sapien congue, tempor sapien sed, fermentum orci. Nam tortor magna, convallis sed sem sit amet, posuere suscipit purus. Maecenas consectetur augue eleifend nisl fringilla, sed tempor lacus efficitur. In convallis pulvinar neque vitae malesuada. Pellentesque ultricies tristique sapien nec mattis. In vel consectetur nulla. Aenean iaculis pulvinar elementum.</p>i
+<p>Aliquam egestas urna sit amet tortor volutpat, commodo condimentum tortor euismod. Praesent lacinia egestas nisl, mollis sollicitudin mauris viverra in. Proin ut sapien congue, tempor sapien sed, fermentum orci. Nam tortor magna, convallis sed sem sit amet, posuere suscipit purus. Maecenas consectetur augue eleifend nisl fringilla, sed tempor lacus efficitur. In convallis pulvinar neque vitae malesuada. Pellentesque ultricies tristique sapien nec mattis. In vel consectetur nulla. Aenean iaculis pulvinar elementum.</p>
 
-<img src="
+<ul class="gallery">
+<li><img src="images/IMG_7381_320.JPG" width="160px"></li>
+<li><img src="images/first_gate_320.jpg" width="160px"></li>
+<li><img src="images/IMG_6427_e_320.jpg" width="160px"></li>
+<li><img src="images/8x8_cover.png" width="160px"></li>
+<li><img src="images/rcm-028_320.png" width="160px"></li>
+</ul>
