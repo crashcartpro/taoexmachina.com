@@ -88,6 +88,7 @@ body{
 #quote {
 	font-family:serif;
 	font-size:1em;
+	font-style: oblique;
 	background-color:#FFFFDD;
 	border:2px solid #990000;
 	border-radius:10px;
@@ -147,6 +148,7 @@ body{
 		padding:0;
 	}
 	.article ul.gallery li {
+		vertical-align:middle;
 		display:inline-block;
 		margin:5px;
 		padding:5px;

@@ -15,6 +15,6 @@ taoexmachina.com
 * Put up links and images in the "museum"
 * Make the "links" page pretty
 * Script(s) for starting and or publishing posts
-* Staging area for unpublished articles to be viewed
-* gallery layout added for use in articles
+* ~~Staging area for unpublished articles to be viewed~~
+* ~~Gallery layout added for use in articles~~
 
