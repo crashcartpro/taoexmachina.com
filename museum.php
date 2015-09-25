@@ -27,7 +27,8 @@ Pictures of old computers and some projects
 <div class="article">
 <h2>Software</h2>
 <hr>
-<a href="http://taoexmachina.com/example/angular/index.php">AngularJS examples</a>
+<a href="http://taoexmachina.com/example/angular/index.php">AngularJS examples</a><br>
+<a href="http://taoexmachina.com/mage-ape/">Mage Ape</a> - Magento API test utility
 </div>
 
 <div class="article">

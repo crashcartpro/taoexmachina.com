@@ -3,6 +3,13 @@ body{
 	background-color:#FFFFFF;
 	margin:0;
 }
+code{
+	font-family:"Courier New", Courier, monospace;
+	background-color:#666666;
+	color: #DDDDDD;
+	padding: 0 4px;
+	border-radius:5px;	
+}
 .wrapper {
 	overflow:auto;
 	width:100%;

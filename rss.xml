@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+<title>Tao Ex Machina</title>
+<description>Project blog by Tim Heath</description>
+<link>http://taoexmachina.com/</link>
+<item>
+	<title>New DFM! Same great taste!</title>
+	<link>http://taoexmachina.com/index.php?a=20150130_new_dfm_same_taste.txt</link>
+	<pubDate>1/30/2015</pubDate>
+	<description>The "Sound Producing Amplifier Module" or "S.P.A.M." is hitting that point in it's life cycle where I can't really dedicate enough time to fufil orders, and still solder them all by hand. A good problem, to be sure. So as we hop from revision 5 straight to revision 7, I'm looking towards Designing For Manufacture. In the case of this amp, that means moving to mostly surface mount components.</description>
+</item>
+<item>
+	<title>Rediscovering an old C.U.G.</title>
+	<link>http://taoexmachina.com/index.php?a=20141029_30_years_ago.txt</link>
+	<pubDate>10/29/2014</pubDate>
+	<description>30 years ago today, The Terminator was #1 in the box office, Debi Nicolle Johnson graced the cover of playboy magazine, and Vol.2 No.8 of “Eight by Eight” newsletter was published for the members of the North Alabama TI-99 Computer Users Group.</description>
+</item>
+<item>
+	<title>You never forget your first</title>
+	<link>http://taoexmachina.com/index.php?a=20140214_never_forget_your_first.txt</link>
+	<pubDate>1/30/2015</pubDate>
+	<description>Or do you? I have very strong memories of my first personal computer. I was about 6 years old and it was an Ericsson PC. This was an IBM-XT clone with an Intel 8088 processor and an amber screen. First, it was in the family office, and later in my room when my dad got something newer. First learning how to use a computer was such a formative experience in my life that I knew I would never forget it.</description>
+</item>
+</channel>
+</rss>
