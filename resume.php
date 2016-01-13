@@ -21,7 +21,11 @@ include 'quote.part';
 <div class="article">
 <h2><a id="about">About Me</a></h2>
 <hr>
-<p></p>
+<img class="right-image" src="images/IMG_0271.JPG" width="320px" />
+<p>I am Tim</p>
+<p>A hacker, maker, tinkerer who is almost constantly facinated by the world around me.  I have asperations to be a teacher, inventor, and all-around cyberpunk wizard.</p>
+<p>Born and raised in NH. Did all of my schooling at Franklin Public Schools, and participated in a large list of extracuriculars and clubs. Boy Scouts, Grange, Little Leauge, rec-center basket ball, Archery, Odysey of the Mind, Destination Imagination, Student Leadership, Drama, and Chorus.</p>
+<p>After Highschool I struggled a bit both personally and profesionally, so moved to Huntsville AL to better myself through career opertuinites and school. Though while here I have also found a great deal of personal growth.</p> 
 </div>
 
 <div class="article">
