@@ -48,13 +48,18 @@ include 'quote.part';
 <div class="article">
 <h2><a id="work">Work History</a></h2>
 <hr>
+<p><h3>Systems Administrator</h3>
+January 2016-Present<br>
+Simple Helix, Huntsville, AL<br>
+Troubleshooting GNU/Linux based web hosting. Build and deploy server products from HP blades, VMWare and Citrix Xen virtual servers.</p>
+
 <p><h3>Programmer Technician</h3>
 April 1015-July 2015<br>
 National Scale Mesurment Speciallists, Huntsville, AL<br>
 Assist update and test software for in-house and customer facing projects in the QT programming language.</p>
 
 <p><h3>Technical Support Technician</h3>
-July 2014-Present<br>
+July 2014-January 2016<br>
 Simple Helix, Huntsville, AL<br>
 Troubleshooting GNU/Linux based web hosting. Answering customer questions and concerns regarding products</p>
 

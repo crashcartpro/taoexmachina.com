@@ -5,22 +5,39 @@
 <description>Project blog by Tim Heath</description>
 <link>http://taoexmachina.com/</link>
 <item>
+        <title>Live Action Adventure Games</title>
+        <link>http://taoexmachina.com/index.php?a=20160509_escape_rooms.txt</link>
+	<guid isPermaLink="false">20160509_escape_rooms</guid>
+	<pubDate>Mon, 09 May 2016 12:00:00 CST</pubDate>
+        <description><![CDATA[<img src="http://taoexmachina.com/images/laag_320.jpg" width="320px"/><p>Samantha's friend and former roommate decided she'd like to go to <a href="http://www.huntsvilleescaperooms.com/">Huntsville Escape Rooms</a> for her birthday. If you haven't heard of this, Escape Rooms are a recent craze where a small group of people are locked in a room with a series of puzzles and a time limit. The goal is to find clues and solve riddles that will eventually let you unlock the door and "escape". A quick google search suggests that Escape Rooms are soon to be in every major city, and they can vary in theme and scope. <a href="http://taoexmachina.com/index.php?a=20160509_escape_rooms.txt">Read more</a></p>]]></description>
+</item>
+<item>
+        <title>Building a Novena Computer</title>
+        <link>http://taoexmachina.com/index.php?a=20150317_building_novena.txt</link>
+	<guid isPermaLink="false">20150317_building_novena</guid>
+        <pubDate>Tue, 03 Mar 2015 12:00:00 CST</pubDate>
+        <description><![CDATA[<img src="http://taoexmachina.com/images/novena1_320.jpg" width="320px"/><p>My friend Shapr bought himself a <a href="https://www.crowdsupply.com/sutajio-kosagi/novena">Novena</a> computer. The Novena is a monumental project from the venerable <a href="http://www.bunniestudios.com/">Bunnie Huang</a>. A well known hardware hacker who, like many of us, wanted to build his own laptop computer. Bunnie's computer would go a step further by being as open source as possible. <a href="http://taoexmachina.com/index.php?a=20150317_building_novena.txt">Read more</a></p>]]></description>
+</item>
+<item>
 	<title>New DFM! Same great taste!</title>
 	<link>http://taoexmachina.com/index.php?a=20150130_new_dfm_same_taste.txt</link>
-	<pubDate>1/30/2015</pubDate>
-	<description>The "Sound Producing Amplifier Module" or "S.P.A.M." is hitting that point in it's life cycle where I can't really dedicate enough time to fufil orders, and still solder them all by hand. A good problem, to be sure. So as we hop from revision 5 straight to revision 7, I'm looking towards Designing For Manufacture. In the case of this amp, that means moving to mostly surface mount components.</description>
+	<guid isPermaLink="false">20150130_new_dfm_same_taste</guid>
+	<pubDate>Fri, 30 Jan 2015 12:00:00 CDT</pubDate>
+	<description><![CDATA[<img src="http://taoexmachina.com/images/NewRev_SameTaste_320.JPG" width="320px"/><p>The "Sound Producing Amplifier Module" or "S.P.A.M." is hitting that point in it's life cycle where I can't really dedicate enough time to fufil orders, and still solder them all by hand. A good problem, to be sure. So as we hop from revision 5 straight to revision 7, I'm looking towards Designing For Manufacture. In the case of this amp, that means moving to mostly surface mount componentse. <a href="http://taoexmachina.com/index.php?a=20150130_new_dfm_same_taste.txt">Read more</a></p>]]></description>
 </item>
 <item>
 	<title>Rediscovering an old C.U.G.</title>
 	<link>http://taoexmachina.com/index.php?a=20141029_30_years_ago.txt</link>
-	<pubDate>10/29/2014</pubDate>
-	<description>30 years ago today, The Terminator was #1 in the box office, Debi Nicolle Johnson graced the cover of playboy magazine, and Vol.2 No.8 of “Eight by Eight” newsletter was published for the members of the North Alabama TI-99 Computer Users Group.</description>
+	<guid isPermaLink="false">20141029_30_years_ago</guid>
+	<pubDate>Wed, 29 Oct 2014 12:00:00 CDT</pubDate>
+	<description><![CDATA[<img src="http://taoexmachina.com/images/8x8_cover.png" width="320px"/><p>30 years ago today, The Terminator was #1 in the box office, Debi Nicolle Johnson graced the cover of playboy magazine, and Vol.2 No.8 of “Eight by Eight” newsletter was published for the members of the North Alabama TI-99 Computer Users Group. <a href="http://taoexmachina.com/index.php?a=20141029_30_years_ago.txt">Read more</a></p>]]></description>
 </item>
 <item>
 	<title>You never forget your first</title>
 	<link>http://taoexmachina.com/index.php?a=20140214_never_forget_your_first.txt</link>
-	<pubDate>1/30/2015</pubDate>
-	<description>Or do you? I have very strong memories of my first personal computer. I was about 6 years old and it was an Ericsson PC. This was an IBM-XT clone with an Intel 8088 processor and an amber screen. First, it was in the family office, and later in my room when my dad got something newer. First learning how to use a computer was such a formative experience in my life that I knew I would never forget it.</description>
+	<guid isPermaLink="false">20140214_never_forget_your_first</guid>
+	<pubDate>Fri, 14 Feb 2014 12:00:00 CDT</pubDate>
+	<description><![CDATA[<img src="http://taoexmachina.com/images/rcm-028_320.png" width="320px"/><p>Or do you? I have very strong memories of my first personal computer. I was about 6 years old and it was an Ericsson PC. This was an IBM-XT clone with an Intel 8088 processor and an amber screen. First, it was in the family office, and later in my room when my dad got something newer. First learning how to use a computer was such a formative experience in my life that I knew I would never forget it. <a href="http://taoexmachina.com/index.php?a=20140214_never_forget_your_first.txt">Read more</a></p>]]></description>
 </item>
 </channel>
 </rss>

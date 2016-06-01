@@ -1,6 +1,7 @@
 body{
 	font-family:arial,sans-serif;
-	background-color:#FFFFFF;
+	font-size:1em;
+	background-color:#FFFFEE;
 	margin:0;
 }
 code{
@@ -21,7 +22,7 @@ code{
 	position:relative;
 	background-color:#990000;
 	background-image:url(images/spam_masthead.jpg);
-	color:#FFFFDD;
+	color:#FFFFEE;
 	height:auto;
 	z-index:25;
 }
@@ -76,7 +77,7 @@ code{
 		display:inline-block;
 	}
 	.nav-bar ul li:hover {
-		background:#FFFFDD;
+		background:#FFFFEE;
 		border-radius:10px 10px 10px 10px;
 	}
 	.sticky {
@@ -86,7 +87,7 @@ code{
 		width:100%;
 	}
 #content {
-	background-color:#FFFFFF;
+	background-color:#FFFFEE;
 	position:relative;
 	margin: 0 0 220px;
 	z-index:15;
@@ -96,7 +97,7 @@ code{
 	font-family:serif;
 	font-size:1em;
 	font-style: oblique;
-	background-color:#FFFFDD;
+	background-color:#FFFFFF;
 	border:2px solid #990000;
 	border-radius:10px;
 	box-shadow: 5px 5px 10px #888888;
@@ -109,7 +110,7 @@ code{
 	display:table;
 }
 .article {
-	background-color:#FFFFDD;
+	background-color:#FFFFFF;
 	border:2px solid #101010;
 	border-radius:10px;
 	box-shadow: 5px 5px 10px #888888;
@@ -120,6 +121,11 @@ code{
 	text-align:left;
 	z-index:20;
 }
+	.article p {
+	text-indent:20px;
+	margin-left:10px;
+	margin-right:10px;
+	}
 	.article h2 {
 		vertical-align:middle;
 		font-size:1.25em;
@@ -147,7 +153,7 @@ code{
 	}
 	.article img.right-image {
 		float:right;
-		margin-left:5px;
+		margin-left:10px;
 	}
 	.article ul.gallery {
 		text-align:center;
@@ -164,7 +170,7 @@ code{
 	}
 .video-column {
 	display:inline-block;
-	background-color:#FFFFDD;
+	background-color:#FFFFEE;
 	border:2px solid #101010;
 	border-radius:10px;
 	box-shadow: 5px 5px 10px #888888;
@@ -186,7 +192,7 @@ code{
 	bottom:0px;
 	width:100%;
 	background-color:#101010;
-	color:#FFFFDD;
+	color:#FFFFEE;
 	min-height:170px;
 	padding:15px;
 	z-index:10
@@ -209,15 +215,13 @@ code{
 	display:block;
 	margin:0 auto;
 }
-#nav, #sub-nav {
-	margin:0;
+.nav-bar ul li a {
+	padding:10px;
 }
-#nav {
-	width:100%;
-	margin:0;
-	text-align:center;
+.article {
+	margin-left:auto;
+	margin-right:auto;
 }
-.article {}
 	.article img {
 		display:block;
 		float:none;

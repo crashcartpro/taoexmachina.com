@@ -18,6 +18,8 @@ echo "<div class='wrapper'>";
 include 'quote.part';
 $path_to_content = "/var/www/html/mainpage/";
 $alt_path_to_content = "/var/www/html/staging/";
+$errmsg = "none";
+
 // Test for any arguments passed in url
 if (!empty($_GET)) {
  // Test for file to exist in primary path AND collapse any redirects 
@@ -52,9 +54,7 @@ if (!empty($_GET)) {
 //Any test for a specified article fails, read in the 5 most recent articles.
 fail:
  //read in files in content directory, decending order.
- $files_in_directory = scandir($path_to_content, 1);
- array_pop($files_in_directory);  //leave off ./ and ../
- array_pop($files_in_directory);
+ $files_in_directory = preg_grep('/^[^.]/', scandir($path_to_content, 1));
  $articles_to_display = array_slice($files_in_directory, 0, 5);  //limit to the first 5
  foreach($files_in_directory as $content_file){
   echo "<div class='article'>";

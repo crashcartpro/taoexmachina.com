@@ -1,0 +1,18 @@
+<h2 class="date">03/10/2015</h2>
+<h2><a href="http://taoexmachina.com/index.php?a=20150317_building_novena.txt">Building a Novena Computer</a></h2>
+<hr>
+<a href="images/novena1.jpg"><img class="right-image" src="images/novena1_320.jpg" width="320px"/></a>
+<p>My friend Shapr bought himself a <a href="https://www.crowdsupply.com/sutajio-kosagi/novena">Novena</a> computer. The Novena is a monumental project from the venerable <a href="http://www.bunniestudios.com/">Bunnie Huang</a>. A well known hardware hacker who, like many of us, wanted to build his own laptop computer. Bunnie's computer would go a step further by being as open source as possible.</p>
+
+<p>The design was completed and put up for order on the site crowdsupply.com back in 2014. crowdsupply.com is kind of like kickstarter, but focused on mostly finished projects that just need their first bulk order and fulfillment met. Still a bit of a wait for folks who order their products. Shapr finally received his early 2015.</p>
+
+<p>I happened to be at Makers Local 256 the night that Shapr was unpacking and setting up his shiny new Novena. So he enlisted my help with actually swapping out the faceplate, mounting the LCD, and screwing all the screws. It's a really fun an flexible design. The "laptop" reminds me more of old luggables. It's designed to sit on a table in front of you. The screen pops up, revealing the beautiful electronics inside. The main board only fits one way, but everything else relies on a mounting grid of screw points. Everything about the Novena screams open, open, open.</p>
+
+<p>Big thanks to Shapr for letting me experience his Novena. I would definitely want one of these in my own collection.</p>
+<ul class="gallery">
+<li><a href="images/novena2.jpg"><img src="images/novena2_150.jpg" width="150px"></a></li>
+<li><a href="images/novena3.jpg"><img src="images/novena3_150.jpg" width="150px"></a></li>
+<li><a href="images/novena4.jpg"><img src="images/novena4_150.jpg" width="150px"></a></li>
+<li><a href="images/novena5.jpg"><img src="images/novena5_150.jpg" width="150px"></a></li>
+<li><a href="images/novena6.jpg"><img src="images/novena6_150.jpg" width="150px"></a></li>
+</ul>
