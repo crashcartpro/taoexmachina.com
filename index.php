@@ -1,75 +1,75 @@
+<?php
+
+/**************************
+  BNC index file v0.1
+ **************************/
+
+require "config.php"; 
+
+// test for 'a' argument passed in url.
+if (!empty($_GET['a'])) {
+    // test that 'a' is a file in the published path. also making sure to colapse any tricky requests and make sure they stay withing the specified folder.
+    $request = $_GET['a'];
+    if (strpos(realpath($published_path.$request),$published_path)===0) {
+        // create an article list with just the requested article
+        $article_list = array($published_path.$request);
+  	// pull page title from H1 tag in article
+        $article_DOM = new DOMDocument();
+        $article_DOM->loadHTMLFile($published_path.$request);
+        $h1 = $article_DOM->getElementsByTagName('h1');
+        $page_title = $h1->item(0)->nodeValue;
+    // same test but with the staging path.
+    } else if (strpos(realpath($staging_path.$_GET['a']),$staging_path)===0) {
+        // create an article list with just the requested article
+        $article_list = array($staging_path.$_GET['a']);
+        // pull page title from H1 tag in article
+        $article_DOM = new DOMDocument();
+        $article_DOM->loadHTMLFile($staging_path.$request);
+        $h1 = $article_DOM->getElementsByTagName('h1');
+        $page_title = $h1->item(0)->nodeValue;
+    } else {
+        // argument 'a' failed all tests, so set error message, and populate normal article list 
+	$err_msg = "404 not found";
+        $article_list = preg_grep('/^[^.]/', scandir($published_path, 1));
+        foreach ($article_list as &$value) { $value = $published_path.$value;} unset($value);    
+    }
+} else {
+    // no argument passed in url, so just make the standard article list
+    $article_list = preg_grep('/^[^.]/', scandir($published_path, 1));
+    foreach ($article_list as &$value) { $value = $published_path.$value;} unset($value);    
+}
+
+echo <<<HTML
 <!DOCTYPE html>
 <html>
 <head>
-<title>The Way from a machine</title>
+<title>$page_title</title>
 <base href="http://www.taoexmachina.com/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="/maroon-black-ivory-02-2015.css">
 </head>
 <body>
-<?php
+HTML;
 
-/*===== PULL HEADERS =====*/
-include 'header.part';
-include 'nav-bar.part';
-/*===== PAGE CONTENT =====*/
-echo "<div id='content'>";
-echo "<div class='wrapper'>";
-include 'quote.part';
-$path_to_content = "/var/www/html/mainpage/";
-$alt_path_to_content = "/var/www/html/staging/";
-$errmsg = "none";
-
-// Test for any arguments passed in url
-if (!empty($_GET)) {
- // Test for file to exist in primary path AND collapse any redirects 
- if ($real_article_path = realpath($path_to_content.$_GET['a'])) {
-  //Test that the colapsed path still points where we expect 
-  if (strpos($real_article_path, $path_to_content) === 0){
-   //All tests satisfied, include the specified article as the only content.
-   echo "<div class='article'>";
-   include $real_article_path;
-   echo "</div>";
-  } else {
-   echo "<p>Path error</p>";
-   goto fail;
-  }
- // Test for file to exist in alternate path AND collapse any redirects
- } else if ($real_article_path = realpath($alt_path_to_content.$_GET['a'])) {
-  //Test that the colapsed path still points where we expect
-  if (strpos($real_article_path, $alt_path_to_content) === 0){
-   //All tests satisfied, include the specified article as the only content.
-   echo "<div class='article'>";
-   include $real_article_path;
-   echo "</div>";
-  } else {
-   echo "<p>Path error</p>";
-   goto fail;
-  }
- } else {
-  echo "<p>File error</p>";
-  goto fail;
- }
-} else {
-//Any test for a specified article fails, read in the 5 most recent articles.
-fail:
- //read in files in content directory, decending order.
- $files_in_directory = preg_grep('/^[^.]/', scandir($path_to_content, 1));
- $articles_to_display = array_slice($files_in_directory, 0, 5);  //limit to the first 5
- foreach($files_in_directory as $content_file){
-  echo "<div class='article'>";
-  include $path_to_content.$content_file;
-  echo "</div>";
- }
+//begin parsing page_elements array from config.php
+foreach ($page_elements as $element) {
+    //special element, representing that included articles or content should be loaded now
+    if ($element == "#content") {
+        if (!empty($err_msg)) { echo $err_msg; }
+        foreach ($article_list as $article) {
+            echo "<div class='article'>";
+            include $article;
+            echo "</div>";
+        }
+    // raw html could be included in the page_elements array. I crudely just look for the "<" at the start of a tag.
+    } else if (strpos($element, "<") === 0) {
+        // output the inserted html as is
+	echo $element; 
+    } else {
+        // failing to be anything special, the element should be a file to be included now 
+        include $element;
+    }
 }
-echo "</div>";
-echo "</div>";
-
-/*===== PULL FOOTER =====*/
-include 'footer.part';
-
 ?>
-
 </body>
 </html>
-

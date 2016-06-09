@@ -1,3 +1,11 @@
+<html>
+<head>
+<title>Adventures in CSS and reactive design</title>
+<meta name="keywords" content="css, reative design, mobile" />
+<meta name="description" content="Tim explores reactive design in css with much trial and error" />
+<meta name="author" content="Tim Heath" />
+</head>
+<body>
 <h2 class="date">10/20/2013</h2>
 <a href="http://taoexmachina.com/index.php?a=20131020_reactive_design.txt"><h1>Adventures in CSS and reactive design</h1></a>
 <hr>
@@ -9,3 +17,5 @@
 <p>Trying to center the title didn't help either. Here I did make a couple concession. Fist, setting BOTH the #logo and the #title to <code>vertical-align:middle;</code> seems an easy enough way to vertically center both elements together. The image is basically setting the bar for the text. But I could never get the title to exactly center itself horizontally while the logo sat there on the left. SO what you see is really just a trick of margins. setting the left side to a relative value. (14% looked good enough to me.)</p>
 <p>Lastly, actually adjusting the horizontal center of the logo and the title when on something like a mobile device is really just a trick of the code. Defining some alternate CSS based on the browser width. CSS has a built in function for this that I used: <code>@media screen and (max-width: 600px)</code> The CSS tags defined after this only apply if the browser is LESS than 600px. (This value works well on my DROID 4, but might need to be adjusted for iPhone4S and newer) The only CSS attributes defined differently in this block are: <code>display:block;</code> and <code>margin-left:auto; margin-right:auto;</code> for both my logo and title elements.</p>
 <p>Et voilà, My page adjusts just how I felt it should Thanks for the tips: Barbra, David, Jesse, and Charlotte.</p>
+</body>
+</html>

@@ -126,6 +126,15 @@ code{
 	margin-left:10px;
 	margin-right:10px;
 	}
+	.article h1 {
+		vertical-align:middle;
+		font-size:1.25em;
+		margin:0;
+	}
+	.article h1 a {
+		text-decoration:none;
+		color:inherit;
+	}
 	.article h2 {
 		vertical-align:middle;
 		font-size:1.25em;
