@@ -115,7 +115,7 @@ code{
 	border-radius:10px;
 	box-shadow: 5px 5px 10px #888888;
 	max-width:960px;
-	padding:10px;
+	padding:20px;
 	margin:10px;
 	overflow:auto;
 	text-align:left;
@@ -162,7 +162,7 @@ code{
 	}
 	.article img.right-image {
 		float:right;
-		margin-left:10px;
+		margin: 20px 0px 20px 20px;
 	}
 	.article ul.gallery {
 		text-align:center;
@@ -196,6 +196,10 @@ code{
 		font-size:1.25em;
 		margin:0;
 	}
+.duties {
+	margin-left:20px;
+}
+
 #footer {
 	position:fixed;
 	bottom:0px;
@@ -231,7 +235,7 @@ code{
 	margin-left:auto;
 	margin-right:auto;
 }
-	.article img {
+	.article img.right-image {
 		display:block;
 		float:none;
 		margin-left:auto;

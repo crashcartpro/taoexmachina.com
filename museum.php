@@ -21,14 +21,22 @@ include 'quote.part';
 <div class="article">
 <h2>Hardware</h2>
 <hr>
-Pictures of old computers and some projects
+Pictures of old computers and some projects<br>
+<ul class="gallery">
+<li><a href="images/stacks1.jpg"><img src="images/stacks1.jpg" width=150px height=112px></a><br>Stack 1</li>
+<li><a href="images/stacks2.jpg"><img src="images/stacks2.jpg" width=150px height=112px></a><br>Stack 2</li>
+<li><a href="images/Amiga2000.jpg"><img src="images/Amiga2000.jpg" width=150px></a><br>Amiga 2000</li>
+<li><a href="images/Trs80lovesSam.jpg"><img src="images/Trs80lovesSam.jpg" width=150px></a><br>TRS-80</li>
+<li><a href="images/3macs.jpg"><img src="images/3macs.jpg" width=150px></a></li>
+<li><a href="images/c64c.jpg"><img src="images/c64c.jpg" width=150px></a><br>Commodore 64c</li>
+</ul>
 </div>
 
 <div class="article">
 <h2>Software</h2>
 <hr>
 <a href="http://taoexmachina.com/example/angular/index.php">AngularJS examples</a><br>
-<a href="http://taoexmachina.com/mage-ape/">Mage Ape</a> - Magento API test utility
+<a href="http://mageape.com/">Mage Ape</a> - Magento API test utility
 </div>
 
 <div class="article">
