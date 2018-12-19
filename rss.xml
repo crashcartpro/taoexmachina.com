@@ -5,6 +5,13 @@
 <description>Project blog by Tim Heath</description>
 <link>http://taoexmachina.com/</link>
 <item>
+        <title>Homebrew z80 computer: Step 1</title>
+        <link>http://taoexmachina.com/index.php?a=20180905_homebrew_z80_1.txt</link>
+	<guid isPermaLink="false">20180905_homebrew_z80_1</guid>
+	<pubDate>Wed, 05 Sep 2018 12:00:00 CST</pubDate>
+        <description><![CDATA[<img src="http://taoexmachina.com/images/z80homebrew_video_320.png" width="320px"/><p>I've been wanting to build a homebrew computer, start with something "simple" and work my way up. Since I'm already mired in vintage computers I began thinking about 8-bit processors of the past like the MOS 6502 and the Zilog Z80. I’ve seen a number of contemporary projects centered around these chips, and after some research and consideration, I decided to use the Z80. Furthermore, I would only use new parts that can be purchased from <a href="https://www.mouser.com">mouser.com</a> today. <a href="http://taoexmachina.com/index.php?a=20180905_homebrew_z80_1.txt">Read More</a><p>]]></description>
+</item>
+<item>
         <title>Live Action Adventure Games</title>
         <link>http://taoexmachina.com/index.php?a=20160509_escape_rooms.txt</link>
 	<guid isPermaLink="false">20160509_escape_rooms</guid>

@@ -6,7 +6,7 @@
 
 <p>The design was completed and put up for order on the site crowdsupply.com back in 2014. crowdsupply.com is kind of like kickstarter, but focused on mostly finished projects that just need their first bulk order and fulfillment met. Still a bit of a wait for folks who order their products. Shapr finally received his early 2015.</p>
 
-<p>I happened to be at Makers Local 256 the night that Shapr was unpacking and setting up his shiny new Novena. So he enlisted my help with actually swapping out the faceplate, mounting the LCD, and screwing all the screws. It's a really fun an flexible design. The "laptop" reminds me more of old luggables. It's designed to sit on a table in front of you. The screen pops up, revealing the beautiful electronics inside. The main board only fits one way, but everything else relies on a mounting grid of screw points. Everything about the Novena screams open, open, open.</p>
+<p>I happened to be at Makers Local 256 the night that Shapr was unpacking and setting up his shiny new Novena. So he enlisted my help with actually swapping out the faceplate, mounting the LCD, and screwing all the screws. It's a really fun an flexible design. The "laptop" reminds me more of old luggables. It's designed to sit on a table in front of you. The screen pops up, revealing the beautiful electronics inside. The main board only fits one way, but everything else utilies a grid of mounting points. Everything about the Novena screams open, open, open.</p>
 
 <p>Big thanks to Shapr for letting me experience his Novena. I would definitely want one of these in my own collection.</p>
 <ul class="gallery">

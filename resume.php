@@ -4,7 +4,7 @@
 <title>The Way from a machine</title>
 <base href="http://www.taoexmachina.com/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="maroon-black-ivory-02-2015.css">
+<link rel="stylesheet" type="text/css" href="red-black-grey-08-2018.css">
 </head>
 <body>
 <?php
@@ -25,7 +25,7 @@ include 'quote.part';
 <p>I am Tim</p>
 <p>A hacker, maker, tinkerer who is almost constantly fascinated by the world around me.  I have aspirations to be an engineer, teacher, inventor, and all-around cyberpunk wizard.</p>
 <p>Born and raised in NH. Did all of my schooling at Franklin Public Schools, and participated in a large list of extracuriculars and clubs. Boy Scouts, Grange, Little Leauge, rec-center basket ball, Archery, Odysey of the Mind, Destination Imagination, Student Leadership, Drama, and Chorus.</p>
-<p></p> 
+<p>I moved to the Rocket City in January 2008, and met up with an amazing group of fellow creatives and engineers at Makers Local 256. We worked on wild and crazy projects, helped teach and learn electronics, programming, and rapid prototyping. I started attending InfoSec conferences, and building on my skills and experiences.</p> 
 </div>
 
 <div class="article">
@@ -49,47 +49,79 @@ include 'quote.part';
 <h2><a id="work">Work History</a></h2>
 <hr>
 <p><h3>Systems Administrator</h3>
-January 2016-Present<br>
-Simple Helix, Huntsville, AL<br>
-<div class="duties">Troubleshooting GNU/Linux based web hosting.<br> 
-Build and deploy server products from HP blades as well as VMWare, Citrix Xen, and Proxmox KVM  virtual servers.<br>
-Help manage internal monitoring, deployment, IPAM, and DCIM software<br>
-Racking enterprise server equipment (HP/Juniper) in a Teir III datacenter</div></p>
+July 2014 - July 2018<br>
+Alpha Hosting (formerly Simple Helix), Huntsville, AL<br>
+<div class="duties">Provision and maintain physical and virtual servers in VMWare, Citrix Xen, and Proxmox<br>
+Provide internal support and escalation for our Support Technicians.<br>
+Respond to alerts for outages, diagnosing the issue and working to resolve it.<br>
+Find and test new software and services to evaluate usefulness for the company.<br>
+Worked rotating shifts for 1st, 2nd, and 3rds, as well as on-call admin as needed.<br>
+Travel to conferences to represent the company to potential customers and partners.<br>
+Install, cable, and manage server equipment within a Teir III data center. (HP/Juniper)<br>
+Worked as a part of admin team to migrate all services to a new datacenter.<br>
+Filled in for sales calls and emails as well.<br>
+Troubleshoot customer issues over email, phone, and live chat.<br>
+Troubleshoot server applications such as: Apache, Lightspeed, Mysql, Exim, and DNS.<br>
+Troubleshoot various web software platforms including: Magento, Wordpress, Mediawiki.<br>
+Received “Tech of the Month” award 3 times.<br>
+Promoted to System Administrator from tech support.</div></p>
 
 <p><h3>Programmer Technician</h3>
-April 1015-July 2015<br>
+April 2015-July 2015<br>
 National Scale Mesurment Speciallists, Huntsville, AL<br>
-<div class="duties">Assist update and test software for in-house and customer facing projects in C++ and the QT framework.</div></p>
-
-<p><h3>Technical Support Technician</h3>
-July 2014-January 2016<br>
-Simple Helix, Huntsville, AL<br>
-<div class="duties">Troubleshooting GNU/Linux based web hosting. Answering customer questions and concerns regarding products</div></p>
+<div class="duties">Managed software projects through GitLab.<br>
+Assisted with building and updating an internal application from Delphi to QT.<br>
+Helped to configure and deploy Ethernet to serial interface for CNC machines.</div></p>
 
 <p><h3>Logistics Technical Specialist</h3>
 April 2014-July 2014<br>
 Digium Inc. Huntsville, AL<br>
-<div class="duties">Perform failure analysis on returned items including: phones, gateways, PC cards, and servers. Flag repeat issues to investigate possible quality assurance or hardware design issues.</div></p>
+<div class="duties">Triage and perform failure analysis of returned phones, appliances, servers, and add-on cards.<br>
+Flag repeat issues to investigate possible quality assurance or hardware design issues.<br>
+Work with Technical Support to improve troubleshooting procedures.<br>
+Work with Hardware Engineering to improve products.</div></p>
 
 <p><h3>Warehouse Technician</h3>
 January 2014-April 2014<br>
 Wide Open West, Huntsville, AL<br>
-<div class="duties">Update firmware on digital transport adapters (DTA). Planned and documented DTA equipment testing procedures. Assists with additional warehouse operations as needed </div></p>
+<div class="duties">Update firmware on digital transport adapters (DTA).<br>
+Planned and documented DTA equipment testing procedures.<br>
+Assists with additional warehouse operations as needed </div></p>
+
+<p><h3>Co-founder / Hardware Engineer</h3>
+August 2010 – April 2015<br>
+Meatstand Electronics (self), Huntsville, AL<br>
+<div class="duties">Design, prototype, and build Open Source Hardware projects<br> 
+PCB Layout in Eagle and gEDA/PCB.<br>
+Assembly of electronics and kits.<br>
+Provided hardware design for 2FA token and various other prototypes.<br>
+Developed and sold Soldering class training kit.<br>
+Developed and sold Guitar amplifier module.</div></p>
 
 <p><h3>Technical Support Technician</h3>
 March 2010-June 2013<br>
 Digium Inc. Huntsville, AL<br>
-<div class="duties">Providing technical assistance to Digium customers over phone and email. Maintaining Asterisk and Switchvox communication systems. Troubleshooting VoIP, PRI, and analog telephony connections.</div></p>
+<div class="duties">Troubleshot GNU/Linux based telephony systems over email and phone.<br>
+Answered customer questions and concerns regarding products.<br>
+Actively worked with other departments to solve customers' issues.<br>
+Rotated to third shift to receive international and emergency calls and resolve issues.<br>
+Read and comprehend international telephony standards and guidelines.<br>
+Sought additional responsibilities maintaining the department's computer lab.</div></p>
 
 <p><h3>Pharmacy Technician</h3>
 May 2008-July 2009<br>
 Sunscript, Huntsville, AL<br>
-<div class="duties">Filling prescriptions. Sorting/counting pills. Preparation, printing, and sorting of delivery totes and manifests.</div></p>
+<div class="duties">Filling prescriptions. Sorting/counting pills.<br>
+Preparation, printing, and sorting of delivery totes and manifests.<br>
+Occasional repair of fax machines.</div></p>
 
 <p><h3>Computer Consultant and Repair Tech</h3>
 September 2006-January 2007<br>
 Franklin Career Academy, Franklin NH<br>
-<div class="duties">Maintenance and repairs on school computers, server, and networks (wired and wireless) As well as troubleshooting school software and NWEA testing programs.</div></p>
+<div class="duties">Maintained and repaired school computers including laptops and servers.<br>
+Administrator over the school’s Active Directory and Window Server 2003.<br>
+Trained faculty and students on various systems and software packages.<br>
+Worked on-call hours for resolving emergency issues.</div></p>
 
 <p><h3>Delivery Driver</h3>
 June 2005-December 2007<br>
@@ -108,7 +140,7 @@ Franklin School District, Franklin NH<br>
 <p><h3>Warehouse and Service Technician</h3>
 June 2000-August 2001<br>
 NeighborCare, Pembroke NH<br>
-<div class="duties">Order picking, shipping and recieivng, Servicing of home medical equipment for rentals.</div></p>
+<div class="duties">Order picking, shipping and recieivng. <br> Service and repair of home medical equipment for rentals.</div></p>
 </div>
 </div>
 </div>

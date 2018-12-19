@@ -4,7 +4,7 @@
 <title>The Way from a machine</title>
 <base href="http://www.taoexmachina.com/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="maroon-black-ivory-02-2015.css">
+<link rel="stylesheet" type="text/css" href="red-black-grey-08-2018.css">
 </head>
 <body>
 <?php
