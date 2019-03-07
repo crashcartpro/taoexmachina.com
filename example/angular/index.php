@@ -11,7 +11,7 @@
 
 <?php
 $x=0;
-$files_in_directory = scandir("/var/www/html/example/angular/", 0);
+$files_in_directory = scandir("/var/www/taoexmachina.com/example/angular/", 0);
 array_shift($files_in_directory);
 array_shift($files_in_directory);
 foreach($files_in_directory as $FileName){

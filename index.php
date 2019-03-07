@@ -39,18 +39,28 @@ if (!empty($_GET['a'])) {
     foreach ($article_list as &$value) { $value = $published_path.$value;} unset($value);    
 }
 
-echo <<<HTML
+if (!empty($_GET['s'])) {
+    $request = $_GET['s'];
+    $page_links = array($request);
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
-<title>$page_title</title>
+<title><?php echo $page_title; ?></title>
 <base href="http://www.taoexmachina.com/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="/red-black-grey-08-2018.css">
+<?php
+foreach ($page_links as $link) {
+    echo '<link rel="stylesheet" type="text/css" href="'.$link.'">';
+}
+?>
 </head>
 <body>
-HTML;
 
+<?php
 //begin parsing page_elements array from config.php
 foreach ($page_elements as $element) {
     //special element, representing that included articles or content should be loaded now

@@ -19,18 +19,20 @@ include 'quote.part';
 
 ?>
 <div class="video-column">
-<h2><a id="talks">Talks</a></h2>
+<h2><a id="talks">Talks / Interviews</a></h2>
 <hr>
+<iframe width="288" height="162" src="https://www.youtube.com/embed/N4Iy0_LLUwc" frameborder="0" allowfullscreen></iframe>
 <iframe width="288" height="162" src="https://www.youtube.com/embed/XBtRu4Gjouk" frameborder="0" allowfullscreen></iframe>
 <iframe width="288" height="162" src="https://www.youtube.com/embed/UvYffDYUEgM" frameborder="0" allowfullscreen></iframe>
+<iframe width="288" height="162" src="https://www.youtube.com/embed/AHp-1C8Ep9U" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="video-column">
 <h2><a id="projects">Projects</a></h2>
 <hr>
+<iframe width="288" height="162" src="https://www.youtube.com/embed/MAC3kgHdyWA" frameborder="0" allowfullscreen></iframe>
 <iframe width="288" height="162" src="https://www.youtube.com/embed/ZGvMbKtTaPQ" frameborder="0" allowfullscreen></iframe>
 <iframe width="288" height="162" src="https://www.youtube.com/embed/Ht5GdcKvUjA" frameborder="0" allowfullscreen></iframe>
-<iframe width="288" height="162" src="https://www.youtube.com/embed/AHp-1C8Ep9U" frameborder="0" allowfullscreen></iframe>
 <iframe width="288" height="162" src="https://www.youtube.com/embed/7quhFYJxMok" frameborder="0" allowfullscreen></iframe>
 </div>
 

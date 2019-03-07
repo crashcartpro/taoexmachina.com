@@ -5,16 +5,16 @@
 
 // Paths should be full, not relative, as they may be used to confirm requests
 // published_path gets picked up and displayed as #content
-$published_path = "/var/www/html/mainpage/";
+$published_path = "/var/www/taoexmachina.com/mainpage/";
 // staging_path holds articles that are not published, but can still be requested directly
-$staging_path = "/var/www/html/staging/";
+$staging_path = "/var/www/taoexmachina.com/staging/";
 
 // Page title is the default as it appears in the HTML head
 $page_title = "The Way From a Machine";
 
 // page_links is an array of css or js files that get included in building your pages
 $page_links = array(
-	"maroon-black-ivory-02-2015.css",
+	"red-black-grey-08-2018.css",
 );
 
 // page_elements is an array of files that are included to build a page, in the order listed.
