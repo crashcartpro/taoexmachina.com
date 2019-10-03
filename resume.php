@@ -40,7 +40,7 @@ include 'quote.part';
 <p><h3>Digium Certified Asterisk Profesional (dCAP)</h3>
 2010 - Huntsvile, AL</p>
 
-<p><h3>Computer Service and Repair</h3>
+<p><h3>Computer Service and Repair course</h3>
 2001 - Huot Technical Center, Laconia, NH</p>
 
 </div>
@@ -48,10 +48,19 @@ include 'quote.part';
 <div class="article">
 <h2><a id="work">Work History</a></h2>
 <hr>
+<p><h3>DevOps Engineer</h3>
+November 2018 - present<br>
+Alteryx, Broomfield, CO<br>
+<div class="duties">Deploying and maintaining build infrastructure with Terraform and Chef.<br>
+Expanded deployment of Zabbix Monitoring, Grafana Dashboards, and ELK log agrigation and searching.<br>
+Planned and executed migration of Artifactory from on-prem to AWS.<br>
+Supporting CICD Pipelines in Jenkins and Gitlab.<br>
+Working with Alteryx data analytics workflows and machine learning.</div></p>
+
 <p><h3>Systems Administrator</h3>
 July 2014 - July 2018<br>
 Alpha Hosting (formerly Simple Helix), Huntsville, AL<br>
-<div class="duties">Provision and maintain physical and virtual servers in VMWare, Citrix Xen, and Proxmox<br>
+<div class="duties">Provision and maintain physical and virtual servers in VMWare, Citrix Xen, and Proxmox.<br>
 Provide internal support and escalation for our Support Technicians.<br>
 Respond to alerts for outages, diagnosing the issue and working to resolve it.<br>
 Find and test new software and services to evaluate usefulness for the company.<br>
