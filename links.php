@@ -22,8 +22,7 @@ include 'quote.part';
 <h2>Tim around the web</h2>
 <hr>
 <ul class="gallery">
-<li><a href="https://www.facebook.com/insideoutboy"><img src="images/facebook-128.png"><br>Facebook</a></li>
-<li><a href="https://twitter.com/crashcartpro"><img src="images/twitter-128.png"><br>Twitter</a></li>
+<li><a href="https://www.instagram.com/crashcartpro/"><img src="images/instagram-128.png"><br>Instagram</a></li>
 <li><a href="https://256.makerslocal.org/wiki/User:CrashCart"><img src="images/ml256-128.png"><br>Makers Local 256</a></li>
 <li><a href="https://github.com/crashcartpro"><img src="images/GitHub-128.png"><br>gith-ub</a></li>
 <li><a href="http://www.thingiverse.com/crashcart/about"><img src="images/thingiverse128.png"><br>thingiverse</a></li>

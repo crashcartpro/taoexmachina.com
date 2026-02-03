@@ -50,7 +50,7 @@ if (!empty($_GET['s'])) {
 <html>
 <head>
 <title><?php echo $page_title; ?></title>
-<base href="http://www.taoexmachina.com/">
+<base href="https://www.taoexmachina.com/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php
 foreach ($page_links as $link) {
