@@ -26,19 +26,24 @@ include 'quote.part';
 <p>A hacker, maker, tinkerer who is almost constantly fascinated by the world around me.  I have aspirations to be an engineer, teacher, inventor, and all-around cyberpunk wizard.</p>
 <p>Born and raised in NH. Did all of my schooling at Franklin Public Schools, and participated in a large list of extracuriculars and clubs. Boy Scouts, Grange, Little Leauge, rec-center basket ball, Archery, Odysey of the Mind, Destination Imagination, Student Leadership, Drama, and Chorus.</p>
 <p>I moved to the Rocket City in January 2008, and met up with an amazing group of fellow creatives and engineers at Makers Local 256. We worked on wild and crazy projects, helped teach and learn electronics, programming, and rapid prototyping. I started attending InfoSec conferences, and building on my skills and experiences.</p> 
+<p>Moved again, in 2018, out to the Rockies and Denver Colorado. Furthered my carrer in web hosting, and then DevOps with a big data analytics company. Got to see the sights and travel the west, while also still keeping up with old friends and colleagues now spread across the U.S.</p>
+<p>The latest big move was back across 2/3rds of the country to buy a house in Massachusetts.</p>
 </div>
 
 <div class="article">
 <h2><a id="education">Education and Certification</a></h2>
 <hr>
-<p><h3>L2: cPanel Professional Certification: Technical</h3>
-2015 - university.cpanel.net
+<p><h3>Alteryx Designer Core Certification</h3>
+2021 - community.alteryx.com</p>
 
-<p><h3>Associate of Applied Science</h3>
-2009-2013 - Attended Calhoun Community College, Huntsville, AL<br><sub>(incomplete)</sub></p>
+<p><h3>L2: cPanel Professional Certification: Technical</h3>
+2015 - university.cpanel.net</p>
 
 <p><h3>Digium Certified Asterisk Profesional (dCAP)</h3>
 2010 - Huntsvile, AL</p>
+
+<p><h3>Associate of Applied Science</h3>
+2009-2013 - Attended Calhoun Community College, Huntsville, AL<br><sub>(incomplete)</sub></p>
 
 <p><h3>Computer Service and Repair course</h3>
 2001 - Huot Technical Center, Laconia, NH</p>
@@ -48,10 +53,19 @@ include 'quote.part';
 <div class="article">
 <h2><a id="work">Work History</a></h2>
 <hr>
-<p><h3>DevOps Engineer</h3>
-November 2018 - present<br>
+<p><h3>Platform Engineer</h3>
+July 2024 - January 2026<br>
+Kitu Systems, Broomfield, CO / Worcester, MA<br>
+<div class="duties">Deployed infrastructure for both internal developers and external clients using Terraform, Ansible, and Helm.<br>
+Assisted developers troubleshooting issues with running tests in Minikube and Circle CI pipelines.<br>
+Collaborated with client contractors to perform load testing of up to 1 million devices of IEEE 2030.5 traffic.<br>
+Participated in On-Call rotation and monitoring with New Relic, CloudWatch, and OpenTelemetry.</div></p>
+
+<p><h3>Senior DevOps Engineer</h3>
+November 2018 - June 2024<br>
 Alteryx, Broomfield, CO<br>
-<div class="duties">Deploying and maintaining build infrastructure with Terraform and Chef.<br>
+<div class="duties">Deployed and updated CI/CD build infrastructure serving 700+ developers, maintaining 99.94% uptime.<br>
+Maintained and updated self-hosted Gitlab, Artifactory, Sonarqube, and more as devs needed.<br>
 Expanded deployment of Zabbix Monitoring, Grafana Dashboards, and ELK log agrigation and searching.<br>
 Planned and executed migration of Artifactory from on-prem to AWS.<br>
 Supporting CICD Pipelines in Jenkins and Gitlab.<br>

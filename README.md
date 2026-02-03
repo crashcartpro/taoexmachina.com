@@ -11,7 +11,7 @@ taoexmachina.com
 
 * ~~Trim old files~~
 * ~~Merge current "beta" features to "live site"~~
-* Fill in my own "about me"
+* ~~Fill in my own "about me"~~S
 * Put up links and images in the "museum"
 * Make the "links" page pretty
 * Script(s) for starting and or publishing posts
