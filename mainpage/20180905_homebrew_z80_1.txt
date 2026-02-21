@@ -1,5 +1,5 @@
 <h2 class="date">09/05/2018</h2>
-<a href="http://taoexmachina.com/index.php?a=20180905_homebrew_z80_1.txt"><h1>Homebrew Z80 computer: Step 1</h1></a>
+<a href="https://taoexmachina.com/index.php?a=20180905_homebrew_z80_1.txt"><h1>Homebrew Z80 computer: Step 1</h1></a>
 <hr>
 <a href="https://youtu.be/MAC3kgHdyWA"><img class="right-image" src="images/z80homebrew_video_320.png" width="320px"/></a>
 <p>I've been wanting to build a homebrew computer, start with something "simple" and work my way up. Since I'm already mired in vintage computers I began thinking about 8-bit processors of the past like the MOS 6502 and the Zilog Z80. I’ve seen a number of contemporary projects centered around these chips, and after some research and consideration, I decided to use the Z80. Furthermore, I would only use new parts that can be purchased from <a href="https://www.mouser.com">mouser.com</a> today.<p>

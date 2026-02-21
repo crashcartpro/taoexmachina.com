@@ -1,5 +1,5 @@
 <h2 class="date">12/31/2018</h2>
-<a href="http://taoexmachina.com/index.php?a=20181231_reading_challenge.txt"><h1>2018 Reading Challenge</h1></a>
+<a href="https://taoexmachina.com/index.php?a=20181231_reading_challenge.txt"><h1>2018 Reading Challenge</h1></a>
 <hr>
 <a href="https://www.goodreads.com/user_challenges/12338882"><img class="right-image" src="images/2018_goodreads_challenge2_320.jpg" width="320px"/></a>
 <p>This year was my first time participating in the <a href="https://www.goodreads.com/">goodreads.com</a> reading challenge. My wife has participated for a few years now. She pledged to read 80 books in 2018. So I felt inspired to try and read at least half as many. Thanks to an Audible subscription, and a book club between my wife and me, I did in fact read at least 42 books this year.</p>

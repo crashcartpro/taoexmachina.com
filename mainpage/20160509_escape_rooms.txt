@@ -1,5 +1,5 @@
 <h2 class="date">5/9/2016</h2>
-<a href="http://taoexmachina.com/index.php?a=20160509_escape_rooms.txt"><h1>Live Action Adventure Games</h1></a>
+<a href="https://taoexmachina.com/index.php?a=20160509_escape_rooms.txt"><h1>Live Action Adventure Games</h1></a>
 <hr>
 <a href="images/laag.jpg"><img class="right-image" src="images/laag_320.jpg" width="320px"/></a>
 <p>Samantha's friend and former roommate decided she'd like to go to <a href="http://www.huntsvilleescaperooms.com/">Huntsville Escape Rooms</a> for her birthday. If you haven't heard of this, Escape Rooms are a recent craze where a small group of people are locked in a room with a series of puzzles and a time limit. The goal is to find clues and solve riddles that will eventually let you unlock the door and "escape". A quick google search suggests that Escape Rooms are soon to be in every major city, and they can vary in theme and scope.</p>

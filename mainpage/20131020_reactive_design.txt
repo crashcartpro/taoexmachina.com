@@ -1,5 +1,5 @@
 <h2 class="date">10/20/2013</h2>
-<a href="http://taoexmachina.com/index.php?a=20131020_reactive_design.txt"><h1>Adventures in CSS and reactive design</h1></a>
+<a href="https://taoexmachina.com/index.php?a=20131020_reactive_design.txt"><h1>Adventures in CSS and reactive design</h1></a>
 <hr>
 <a href="images/IMG_6427_e.jpg"><img class="right-image" src="images/IMG_6427_e_320.jpg" width="320px" height="240px"/></a>
 <p>CSS is supposed to make coding web pages easier and more flexible. <br/>But sometimes it behaves in unexpected ways.</p>

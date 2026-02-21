@@ -1,5 +1,5 @@
 <h2 class="date">10/29/2014</h2>
-<a href="http://taoexmachina.com/index.php?a=20141029_30_years_ago.txt"><h1>Rediscovering an old C.U.G.</h1></a>
+<a href="https://taoexmachina.com/index.php?a=20141029_30_years_ago.txt"><h1>Rediscovering an old C.U.G.</h1></a>
 <hr>
 <a href="images/8x8_vol_2_no_8.pdf"><img class="right-image" alt="8x8 newsletter cover" src="images/8x8_cover.png" width="320px"/></a>
 

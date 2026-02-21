@@ -1,5 +1,5 @@
 <h2 class="date">2/14/2014</h2>
-<a href="http://taoexmachina.com/index.php?a=20140214_never_forget_your_first.txt">
+<a href="https://taoexmachina.com/index.php?a=20140214_never_forget_your_first.txt">
 <h1>You never forget your first</h1>
 </a>
 <hr>

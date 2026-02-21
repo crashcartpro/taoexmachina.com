@@ -1,5 +1,5 @@
 <h2 class="date">10/22/2013</h2>
-<a href="http://taoexmachina.com/index.php?a=20131022_not_invented_here.txt"><h1>Not invented here</h1></a>
+<a href="https://taoexmachina.com/index.php?a=20131022_not_invented_here.txt"><h1>Not invented here</h1></a>
 <hr>
 <img class="right-image" src="images/NotMadeHere.png" />
 <p>Two big questions to ask as you begin any journey are: "Where do you want to be?" and "How are you going to get there." Before even starting a project, it's good to know what it's going to look like when you're finished, and what tools are you going to use make it. I have a vision of what I want my web site to look like, but a daunting number of tools to choose from.</p>

@@ -17,4 +17,8 @@ taoexmachina.com
 * Script(s) for starting and or publishing posts
 * ~~Staging area for unpublished articles to be viewed~~
 * ~~Gallery layout added for use in articles~~
-
+* ~~sanitize input for potential cross site scripting~~
+* remove jquery dependency?
+* consider error handling of article dom loading (H1 specifically)
+* make config of document root more "portable"
+* explore options for basic CI/CD and tests

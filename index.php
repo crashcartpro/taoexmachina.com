@@ -40,7 +40,7 @@ if (!empty($_GET['a'])) {
 }
 
 if (!empty($_GET['s'])) {
-    $request = $_GET['s'];
+    $request = htmlspecialchars($_GET['s'], ENT_QUOTES, 'UTF-8');
     $page_links = array($request);
 }
 

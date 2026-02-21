@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>The Way from a machine</title>
-<base href="http://www.taoexmachina.com/">
+<base href="https://www.taoexmachina.com/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="red-black-grey-08-2018.css">
 </head>
@@ -44,10 +44,10 @@ Pictures of old computers and some projects<br>
 <h2>Software</h2>
 <hr>
 <ul class="gallery">
-<li><a href="http://taoexmachina.com/example/angular/index.php"><img src="images/angular-js.png" width=150px><br>AngularJS examples</a></li>
+<li><a href="https://taoexmachina.com/example/angular/index.php"><img src="images/angular-js.png" width=150px><br>AngularJS examples</a></li>
 <li><a href="https://mageape.com"><img src="images/mageape_link.png" width=150px><br>Mage Ape</a></li>
-<li><a href="http://taoexmachina.com/Point-and-Text/index.html"><img src="images/pata_link.png" width=150px><br>Point and Text adventure game</a></li>
-<li><a href="http://heathmeiborg.com"><img src="images/PixelTimandSam.png" height=112px><br>Wedding website</a></li>
+<li><a href="https://taoexmachina.com/Point-and-Text/index.html"><img src="images/pata_link.png" width=150px><br>Point and Text adventure game</a></li>
+<li><a href="https://heathmeiborg.com"><img src="images/PixelTimandSam.png" height=112px><br>Wedding website</a></li>
 </ul>
 </div>
 

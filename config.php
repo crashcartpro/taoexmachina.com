@@ -19,7 +19,7 @@ $page_links = array(
 
 // page_elements is an array of files that are included to build a page, in the order listed.
 // Should be relative paths, files can be named anything, but should be html or php parts that get included into the greater whole.
-// #content represents where articles from the above direcotries are pulled in
+// #content represents where articles from the above directories are pulled in
 $page_elements = array(
 	"header.part",
 	"nav-bar.part",

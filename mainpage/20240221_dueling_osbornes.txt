@@ -1,5 +1,5 @@
 <h2 class="date">02/21/2024</h2>
-<a href="http://taoexmachina.com/index.php?a=20240221_dueling_osbornes.txt"><h1>Dueling Orbornes</h1></a>
+<a href="https://taoexmachina.com/index.php?a=20240221_dueling_osbornes.txt"><h1>Dueling Orbornes</h1></a>
 <hr>
 <a href="images/osbornes1.jpg"><img class="right-image" src="images/osbornes1_320.jpg" width="320px"/></a>
 <p>I recently received an Osborne-01 for the collection. But it was broken, of course. It would turn on, but immediately and invariably showed the message “boot error.” Not bad, but not ideal. Thankfully I already had a perfectly working unit in my hoard. Being able to swap hardware and software from a known-good system can be a pretty expeditious troubleshooting method.</p>

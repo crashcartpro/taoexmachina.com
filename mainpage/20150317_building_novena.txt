@@ -1,5 +1,5 @@
 <h2 class="date">03/10/2015</h2>
-<a href="http://taoexmachina.com/index.php?a=20150317_building_novena.txt"><h1>Building a Novena Computer</h1></a>
+<a href="https://taoexmachina.com/index.php?a=20150317_building_novena.txt"><h1>Building a Novena Computer</h1></a>
 <hr>
 <a href="images/novena1.jpg"><img class="right-image" src="images/novena1_320.jpg" width="320px"/></a>
 <p>My friend Shapr bought himself a <a href="https://www.crowdsupply.com/sutajio-kosagi/novena">Novena</a> computer. The Novena is a monumental project from the venerable <a href="http://www.bunniestudios.com/">Bunnie Huang</a>. A well known hardware hacker who, like many of us, wanted to build his own laptop computer. Bunnie's computer would go a step further by being as open source as possible.</p>

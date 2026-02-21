@@ -1,5 +1,5 @@
 <h2 class="date">1/9/2014</h2>
-<a href="http://taoexmachina.com/index.php?a=20140109_playing_for_the_first_gate.txt"><h1>Playing for the first gate</h1></a>
+<a href="https://taoexmachina.com/index.php?a=20140109_playing_for_the_first_gate.txt"><h1>Playing for the first gate</h1></a>
 <hr>
 <a href="images/first_gate.jpg"><img class="right-image"
 src="images/first_gate_320.jpg" width="320px" height="240px"/></a>
