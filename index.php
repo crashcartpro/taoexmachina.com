@@ -13,11 +13,13 @@ if (!empty($_GET['a'])) {
     if (strpos(realpath($published_path.$request),$published_path)===0) {
         // create an article list with just the requested article
         $article_list = array($published_path.$request);
-  	// pull page title from H1 tag in article
+  	    // pull page title from H1 tag in article
         $article_DOM = new DOMDocument();
         $article_DOM->loadHTMLFile($published_path.$request);
         $h1 = $article_DOM->getElementsByTagName('h1');
-        $page_title = $h1->item(0)->nodeValue;
+        if ($h1->length>0) {
+            $page_title = $h1->item(0)->nodeValue;
+        }
     // same test but with the staging path.
     } else if (strpos(realpath($staging_path.$_GET['a']),$staging_path)===0) {
         // create an article list with just the requested article
@@ -26,7 +28,9 @@ if (!empty($_GET['a'])) {
         $article_DOM = new DOMDocument();
         $article_DOM->loadHTMLFile($staging_path.$request);
         $h1 = $article_DOM->getElementsByTagName('h1');
-        $page_title = $h1->item(0)->nodeValue;
+        if ($h1->length>0) {
+            $page_title = $h1->item(0)->nodeValue;
+        }
     } else {
         // argument 'a' failed all tests, so set error message, and populate normal article list 
 	$err_msg = "404 not found";
