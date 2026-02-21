@@ -2,6 +2,22 @@ services:
   web:
     image: php:8.3-apache
     volumes:
-      - ./:/var/www/html
+      - ./:/var/www/taoexmachina.com
     ports:
       - "8080:80"
+    configs:
+      - source: http_config
+        target: /etc/apache2/sites-enabled/000-default.conf
+
+configs:
+  http_config:
+    content: |
+      ServerName localhost
+
+      <VirtualHost *:80>
+          DocumentRoot /var/www/taoexmachina.com
+          <Directory /var/www/taoexmachina.com>
+              AllowOverride All
+              Require all granted
+          </Directory>
+      </VirtualHost>

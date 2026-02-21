@@ -10,12 +10,12 @@
 <?php
 
 /*===== PULL HEADERS =====*/
-include 'header.part';
-include 'nav-bar.part';
+include 'header.php';
+include 'nav-bar.php';
 /*===== PAGE CONTENT =====*/
 echo "<div id='content'>";
 echo "<div class='wrapper'>";
-include 'quote.part';
+include 'quote.php';
 
 ?>
 <div class="article">
@@ -79,7 +79,7 @@ wishful thinking
 <?php
 
 /*===== PULL FOOTER =====*/
-include 'footer.part';
+include 'footer.php';
 
 ?>
 </body>

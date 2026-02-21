@@ -21,13 +21,13 @@ $page_links = array(
 // Should be relative paths, files can be named anything, but should be html or php parts that get included into the greater whole.
 // #content represents where articles from the above directories are pulled in
 $page_elements = array(
-	"header.part",
-	"nav-bar.part",
+	"header.php",
+	"nav-bar.php",
 	"<div id='content'><div class='wrapper'>",
-	"quote.part",
+	"quote.php",
 	"#content",
 	"</div></div>",
-	"footer.part",
+	"footer.php",
 );
 
 ?>
